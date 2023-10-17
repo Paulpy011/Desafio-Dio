@@ -1,9 +1,9 @@
 // Defina o nome e a XP do herói
-var nomeDoHeroi = "Paulpy"; // Substitua pelo nome do herói
-var xpDoHeroi = 6000; // Substitua pela quantidade de XP do herói
+let nomeDoHeroi = "Paulpy"; // Substitua pelo nome do herói
+let xpDoHeroi = 6000; // Substitua pela quantidade de XP do herói
 
 // Use uma estrutura de decisão para determinar o nível do herói
-var nivelDoHeroi;
+let nivelDoHeroi;
 if (xpDoHeroi < 1000) {
     nivelDoHeroi = "Ferro";
 } else if (xpDoHeroi >= 1001 && xpDoHeroi <= 2000) {
